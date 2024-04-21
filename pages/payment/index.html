@@ -1,0 +1,75 @@
+<!--
+    @author:우연정
+    @date: 2024.04.21
+    @description : 결제 메인화면 
+
+  DATE              AUTHOR             NOTE
+  -----------------------------------------------------------
+  2024/04/21        우연정            최초 생성
+ 
+-->
+<!-- 1차 -> 결제버튼 후 pages/index.html 으로 이동
+        결제 할 상품 목록, 결제 총 금액, 결제방법  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../source/css/payment.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>결제화면</h1>
+
+        <!-- 상품 목록 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
+            </div>
+            <div class="product-info">
+                <p>상품명: Danielle 라이트 스틱</p>
+                <p>수량: 1</p>
+                <p>가격: ₩22,000</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
+            </div>
+            <div class="product-info">
+                <p>상품명: Danielle 라이트 스틱</p>
+                <p>수량: 1</p>
+                <p>가격: ₩22,000</p>
+            </div>
+        </div>
+
+
+        <!-- 결제 총 금액 -->
+        <div class="total-amount">
+            <p>결제 총 금액: ₩44000</p>
+        </div>
+
+        <!-- 결제방법 -->
+        <div id="payment-methods">
+            <p>결제방법:</p>
+            <input type="radio" id="credit-card" name="payment-method" value="credit-card">
+            <label for="credit-card"><img src="../../source/images/credit-card-solid.svg" alt="신용카드"> 신용카드</label>
+            <input type="radio" id="bank-transfer" name="payment-method" value="bank-transfer">
+            <label for="bank-transfer"><img src="../../source/images/money-check-dollar-solid.svg" alt="계좌이체">
+                계좌이체</label>
+            <input type="radio" id="easy-payment" name="payment-method" value="easy-payment">
+            <label for="easy-payment"><img src="../../source/images/money-bill-solid.svg" alt="간편결제"> 간편결제</label>
+        </div>
+
+        <!-- 결제하기 버튼 -->
+        <a href="../../pages/index.html" id="checkout-button">결제하기</a>
+
+    </div>
+</body>
+
+</html>
