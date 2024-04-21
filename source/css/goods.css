@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+
+body {
+
+    background: url("../images/main_backgound.jpg") no-repeat fixed center/cover;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#goods_title {
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+#goods_wrap {
+    line-height: normal;
+    margin-top: 10%;
+    width: 100vw;
+    text-align: center;
+}
+
+#goods_wrap>img {
+    display: inline;
+}
+
+.goods_img:hover {
+    /* opacity: 0.7; */
+    width: 17%;
+}
+
+.goods_img {
+    width: 15%;
+    transition-property: width;
+    transition-duration: 0.8s;
+}
+
+.goods_explain {
+    /* display: block; */
+    vertical-align: middle;
+    width: 90vw;
+    text-align: center;
+
+}
+
+div>p {
+    /* display: inline-block; */
+    background-color: aliceblue;
+    opacity: .8;
+    white-space: pre-wrap;
+
+}
