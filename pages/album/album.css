@@ -1,5 +1,5 @@
 body {
-	background: url(./backG.jpg) no-repeat fixed center/cover;
+	background: url(../../source/images/main_backgound.jpg) no-repeat fixed center/cover;
 }
 
 /* ============================= */
@@ -21,7 +21,7 @@ img {
 	width: 20%;
 
 	transition-property: width;
-	transition-duration: 0.7s;
+	transition-duration: 1s;
 }
 
 img:hover {
