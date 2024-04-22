@@ -11,52 +11,58 @@
 <!-- 1차 -> 결제버튼 후 pages/index.html 으로 이동
         결제 할 상품 목록, 결제 총 금액, 결제방법  
 -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>결제 메인화면</title>
     <link rel="stylesheet" href="../../source/css/payment.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>결제화면</h1>
-
-        <!-- 상품 목록 -->
-        <div class="product">
-            <div class="product-image">
-                <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
-            </div>
-            <div class="product-info">
-                <p>상품명: Danielle 라이트 스틱</p>
-                <p>수량: 1</p>
-                <p>가격: ₩22,000</p>
-            </div>
-        </div>
-        <div class="product">
-            <div class="product-image">
-                <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
-            </div>
-            <div class="product-info">
-                <p>상품명: Danielle 라이트 스틱</p>
-                <p>수량: 1</p>
-                <p>가격: ₩22,000</p>
-            </div>
-        </div>
-
-
-        <!-- 결제 총 금액 -->
-        <div class="total-amount">
-            <p>결제 총 금액: ₩44000</p>
-        </div>
-
-        <!-- 결제방법 -->
+        <table class="product-list">
+            <thead>
+                <tr>
+                    <th>제품 사진</th>
+                    <th>상품명</th>
+                    <th>수량</th>
+                    <th>가격</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="product">
+                    <td class="product-image">
+                        <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
+                    </td>
+                    <td class="product-info">
+                        <p>상품명: Danielle 라이트 스틱</p>
+                    </td>
+                    <td>1</td>
+                    <td>₩22,000</td>
+                </tr>
+                <tr class="product">
+                    <td class="product-image">
+                        <img src="../../source/images/light_stick_Danielle.png" alt="light_stick_Danielle">
+                    </td>
+                    <td class="product-info">
+                        <p>상품명: Danielle 라이트 스틱</p>
+                    </td>
+                    <td>1</td>
+                    <td>₩22,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="total-amount">결제 총 금액
+                        ₩22,000</td>
+                </tr>
+            </tfoot>
+        </table>
+        
         <div id="payment-methods">
-            <p>결제방법:</p>
             <input type="radio" id="credit-card" name="payment-method" value="credit-card">
             <label for="credit-card"><img src="../../source/images/credit-card-solid.svg" alt="신용카드"> 신용카드</label>
             <input type="radio" id="bank-transfer" name="payment-method" value="bank-transfer">
@@ -66,9 +72,7 @@
             <label for="easy-payment"><img src="../../source/images/money-bill-solid.svg" alt="간편결제"> 간편결제</label>
         </div>
 
-        <!-- 결제하기 버튼 -->
         <a href="../../pages/index.html" id="checkout-button">결제하기</a>
-
     </div>
 </body>
 
