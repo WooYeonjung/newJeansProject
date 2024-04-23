@@ -1,0 +1,21 @@
+body {
+    background: url(../images/giro_image/minji/minji2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+div {
+    background-color: gray;
+    display: inline-block;
+    width: 40%;
+}
+
+
+li {
+    ;
+}
+
+li:hover {
+    color: black;
+}
