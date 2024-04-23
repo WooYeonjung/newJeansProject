@@ -1,4 +1,8 @@
-        main {
+        footer{
+            text-align: center;
+        }
+        
+        main{
             text-align: center;
         }
 
@@ -12,7 +16,7 @@
             position: relative;
         }
 
-
+        
 
         #member_profile:hover{
             width:93%;
