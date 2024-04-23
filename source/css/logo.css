@@ -18,9 +18,15 @@ div {
 }
 
    
-.fa-solidfa-bars{
-    /* /opacity: 0.7; */
-    width: 100%;
-    
-    
+
+
+nav a{
+    font-size: 150%;
+    transition-property: font-size;
+    transition-duration: .5s;
 }
+
+nav a:hover{
+    font-size: 300%;
+}
+
