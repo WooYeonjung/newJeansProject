@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 body ul li {
     margin: 0;
     padding: 0;
@@ -12,6 +14,8 @@ a {
 
 }
 
+=======
+>>>>>>> main
 body {
     background: url(../images/main_backgound.jpg);
     background-size: cover;
@@ -19,6 +23,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 .logo:hover {
     visibility: visible;
 }
@@ -27,11 +32,16 @@ body {
     /* display: inline-block; */
     text-align: center;
     /* margin-left: 400px; */
+=======
+.logo {
+    width: 30%;
+>>>>>>> main
 
 }
 
 
-header div {
+<<<<<<< HEAD
+#logo_wrap {
     text-align: center;
 
 }
@@ -40,6 +50,7 @@ div {
     display: inline-block;
 }
 
+<<<<<<< HEAD
 ul:nth-of-type(1) li {
     display: inline-block;
     color: brown;
@@ -89,4 +100,32 @@ ul:nth-of-type(2) li {
 
 .block3 {
     margin-left: -1700px
+=======
+
+div {
+    text-align: center;
+    
 }
+
+   
+.fa-solidfa-bars{
+    /* /opacity: 0.7; */
+    width: 100%;
+    
+    
+>>>>>>> main
+}=======
+   
+
+
+nav a{
+    font-size: 150%;
+    transition-property: font-size;
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    font-size: 300%;
+}
+
+>>>>>>> main
