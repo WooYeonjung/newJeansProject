@@ -9,5 +9,27 @@ body {
 }
 
 img {
-    width: 30%;
+    width: 20%;
+}
+
+nav,
+p {
+    margin: 1%;
+    padding: 2%;
+
+    display: inline-block;
+    background-color: azure;
+    width: 23%;
+
+    text-align: initial;
+    white-space: pre-line;
+    line-height: 2;
+
+    vertical-align: top;
+
+    border-radius: 30px;
+}
+
+nav li {
+    font-size: 25px;
 }
