@@ -5,13 +5,14 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .product-list {
+    background-color: #fff;
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
@@ -37,10 +38,8 @@ body {
 }
 
 #payment-methods {
-
     display: flex;
     justify-content: space-around;
-
     margin-bottom: 20px;
 }
 
@@ -56,17 +55,6 @@ body {
     margin-right: 5px;
 }
 
-#checkout-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: silver;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-}
 
 .product-list {
     /* background-color: rgba(255, 255, 255, 0.7); */
@@ -87,7 +75,7 @@ body {
 .product-image img {
     max-width: 100%;
     height: auto;
-    opacity: 0.9;
+    opacity: 1;
     /* 투명도 조절 (필요한 만큼 조절) */
 }
 
@@ -118,11 +106,13 @@ thead tr {
    
     margin: 0 auto;
 } */
+
+
 #checkout-button {
+    display: block;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    /* 내부 padding 포함하여 너비 계산 */
     background-color: silver;
     color: #fff;
     text-align: center;
