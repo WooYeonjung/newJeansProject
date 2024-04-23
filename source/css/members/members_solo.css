@@ -1,0 +1,15 @@
+img
+    {
+    width: 27%;
+    margin: 0;
+    transition-property: width;
+    transition-duration: .7s;
+    }
+
+    body{
+        text-align: center;
+    }
+
+    .hover:hover{
+        width:30%
+    }
