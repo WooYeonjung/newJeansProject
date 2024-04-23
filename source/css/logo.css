@@ -9,24 +9,24 @@ body {
     width: 30%;
 
 }
-
-
-
-div {
+header>div{
     text-align: center;
-    
 }
 
-   
 
 
-nav a{
+    
+
+
+
+
+.do a{
     font-size: 150%;
     transition-property: font-size;
     transition-duration: .5s;
 }
 
-nav a:hover{
+.do a:hover{
     font-size: 300%;
 }
 
