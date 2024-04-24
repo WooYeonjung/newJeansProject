@@ -1,8 +1,4 @@
-
-
-
-
-body {
+main {
     text-align: center;
     margin: 0;
 }
@@ -13,7 +9,7 @@ video {
     width: 20%;
 }
 
-div {
+span {
     margin: 1%;
     padding: 2%;
 
