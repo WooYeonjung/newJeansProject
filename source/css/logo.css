@@ -23,39 +23,23 @@ body {
     width: 30%;
 
 }
-
-
-#logo_wrap {
+header>div{
     text-align: center;
-
-}
-
-div {
-    display: inline-block;
-}
-
-
-div {
-    text-align: center;
-
-}
-
-
-.fa-solidfa-bars {
-    /* /opacity: 0.7; */
-    width: 100%;
-
-
 }
 
 
 
-nav a {
+    
+
+
+
+
+.do a{
     font-size: 150%;
     transition-property: font-size;
     transition-duration: .5s;
 }
 
-nav a:hover {
+.do a:hover{
     font-size: 300%;
 }

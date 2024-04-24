@@ -6,10 +6,8 @@ img
     transition-duration: .7s;
     }
 
-    body{
-        text-align: center;
-    }
-
+    footer{text-align: center;}
+    
     .hover:hover{
         width:30%
     }
