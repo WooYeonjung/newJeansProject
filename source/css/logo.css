@@ -12,6 +12,7 @@ body {
 
 
 
+
 div {
     text-align: center;
     
@@ -21,7 +22,7 @@ div {
 
 
 nav a{
-    font-size: 150%;
+    font-size: 200%;
     transition-property: font-size;
     transition-duration: .5s;
 }
