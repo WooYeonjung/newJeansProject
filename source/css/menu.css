@@ -7,81 +7,42 @@ body {
     background-color: black;
     
 }
-.mom{
+main{
+    width: 30%;
+    height: 100%;
+    list-style: none;
     text-align: center;
-    width: 20%;
-
+    margin-top: 7%;
 }
 
-div {
-    background-color: rgb(188, 35, 35);
-    /* display: inline-block; */
-    /* height: 10000vh; */
-    background-color: black;
-    width:50%;
-    margin-left:5% ;
-    margin-top: 100px;
-    
-}
-
-li {
-    margin-top: 30%;
-    display: inline-block;
+li{
+    margin-bottom: 10%;
     font-size: 30px;
     color: gainsboro;
     transition-property: font-size;
     transition-duration: .5s;
-    list-style: none;
     font-weight: bold;
-<<<<<<< HEAD
-    
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-li {}
-=======
-
->>>>>>> main
-=======
 }
+a{text-decoration-line: none;}
 
-.as{
-    display: inline-block;
-    font-size: 30px;
-    
-}
->>>>>>> main
-=======
-}   
->>>>>>> jyd
-
-li:hover {
-    font-size: 40px;
-    color: firebrick;
-}
-.as{
+.icon a{
     display: inline-block;
     font-size: 25px;
-    height: 100px;
-    width: 200px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: -40%;
-
-}
-i{
+    transition-property: font-size;
+    transition-duration: 1s;
     color: gray;
     margin: 3px;
-    opacity: .7;
-}
+    opacity: .7; }
 
-a:hover{
-    font-size: 50px;
-    transition-duration: 1s;
-}
 
-i:hover{
+.icon a:hover{
+    font-size: 30px;
     color: white;
     opacity: 1;
-    
 }
+
+li:hover{
+    font-size: 35px;
+    color: firebrick;}
+
+   
