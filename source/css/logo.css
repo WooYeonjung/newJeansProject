@@ -1,3 +1,18 @@
+body ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
 body {
     background: url(../images/main_backgound.jpg);
     background-size: cover;
@@ -13,6 +28,9 @@ body {
 header>div {
     text-align: center;
 }
+
+
+
 
 
 

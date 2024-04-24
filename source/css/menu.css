@@ -7,42 +7,81 @@ body {
     background-color: black;
     
 }
-main{
-    width: 30%;
-    height: 100%;
-    list-style: none;
+.mom{
     text-align: center;
-    margin-top: 7%;
+    width: 20%;
+
 }
 
-li{
-    margin-bottom: 10%;
+div {
+    background-color: rgb(188, 35, 35);
+    /* display: inline-block; */
+    /* height: 10000vh; */
+    background-color: black;
+    width:50%;
+    margin-left:5% ;
+    margin-top: 100px;
+    
+}
+
+li {
+    margin-top: 30%;
+    display: inline-block;
     font-size: 30px;
     color: gainsboro;
     transition-property: font-size;
     transition-duration: .5s;
+    list-style: none;
     font-weight: bold;
-}
-a{text-decoration-line: none;}
+<<<<<<< HEAD
+    
 
-.icon a{
+<<<<<<< HEAD
+<<<<<<< HEAD
+li {}
+=======
+
+>>>>>>> main
+=======
+}
+
+.as{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+>>>>>>> main
+=======
+}   
+>>>>>>> jyd
+
+li:hover {
+    font-size: 40px;
+    color: firebrick;
+}
+.as{
     display: inline-block;
     font-size: 25px;
-    transition-property: font-size;
-    transition-duration: 1s;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -40%;
+
+}
+i{
     color: gray;
     margin: 3px;
-    opacity: .7; }
-
-
-.icon a:hover{
-    font-size: 30px;
-    color: white;
-    opacity: 1;
+    opacity: .7;
 }
 
-li:hover{
-    font-size: 35px;
-    color: firebrick;}
+a:hover{
+    font-size: 50px;
+    transition-duration: 1s;
+}
 
-   
+i:hover{
+    color: white;
+    opacity: 1;
+    
+}
