@@ -25,20 +25,12 @@ body {
 
 }
 
-<<<<<<< HEAD
 header>div {
-=======
-
-
-
-div {
->>>>>>> jyd
     text-align: center;
 }
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -46,10 +38,10 @@ div {
 
 .do a {
     font-size: 150%;
-=======
+}
+
 nav a{
     font-size: 200%;
->>>>>>> jyd
     transition-property: font-size;
     transition-duration: .5s;
 }
