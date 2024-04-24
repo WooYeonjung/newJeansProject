@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 body ul li {
     margin: 0;
     padding: 0;
@@ -20,8 +12,7 @@ a {
 
 }
 
-=======
->>>>>>> main
+
 body {
     background: url(../images/main_backgound.jpg);
     background-size: cover;
@@ -33,23 +24,24 @@ body {
     width: 30%;
 
 }
-header>div{
+
+header>div {
     text-align: center;
 }
 
 
 
-    
 
 
 
 
-.do a{
+
+.do a {
     font-size: 150%;
     transition-property: font-size;
     transition-duration: .5s;
 }
 
-.do a:hover{
+.do a:hover {
     font-size: 300%;
 }
